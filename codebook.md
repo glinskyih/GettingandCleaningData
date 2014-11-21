@@ -14,83 +14,163 @@ These signals were used to estimate variables of the feature vector for each pat
 A complete list of the 81 variables with variable type are:
 
 subject.id                     : integer (primary key)
+
 activity                       : character (primary key)
-tBodyAcc-mean()-X              : numeric (an average)  
+
+tBodyAcc-mean()-X              : numeric (an average) 
+
 tBodyAcc-mean()-Y              : numeric (an average)  
+
 tBodyAcc-mean()-Z              : numeric (an average)  
+
 tBodyAcc-std()-X               : numeric (an average)  
+
 tBodyAcc-std()-Y               : numeric (an average)  
+
 tBodyAcc-std()-Z               : numeric (an average)  
+
 tGravityAcc-mean()-X           : numeric (an average)  
+
 tGravityAcc-mean()-Y           : numeric (an average)  
+
 tGravityAcc-mean()-Z           : numeric (an average)  
+
 tGravityAcc-std()-X            : numeric (an average)  
+
 tGravityAcc-std()-Y            : numeric (an average)  
+
 tGravityAcc-std()-Z            : numeric (an average)  
+
 tBodyAccJerk-mean()-X          : numeric (an average)  
+
 tBodyAccJerk-mean()-Y          : numeric (an average)  
+
 tBodyAccJerk-mean()-Z          : numeric (an average)  
+
 tBodyAccJerk-std()-X           : numeric (an average)  
+
 tBodyAccJerk-std()-Y           : numeric (an average)  
+
 tBodyAccJerk-std()-Z           : numeric (an average)  
+
 tBodyGyro-mean()-X             : numeric (an average)  
+
 tBodyGyro-mean()-Y             : numeric (an average)  
+
 tBodyGyro-mean()-Z             : numeric (an average)  
+
 tBodyGyro-std()-X              : numeric (an average)  
+
 tBodyGyro-std()-Y              : numeric (an average)  
+
 tBodyGyro-std()-Z              : numeric (an average)  
+
 tBodyGyroJerk-mean()-X         : numeric (an average)  
+
 tBodyGyroJerk-mean()-Y         : numeric (an average)  
+
 tBodyGyroJerk-mean()-Z         : numeric (an average)  
+
 tBodyGyroJerk-std()-X          : numeric (an average)  
+
 tBodyGyroJerk-std()-Y          : numeric (an average)  
+
 tBodyGyroJerk-std()-Z          : numeric (an average)  
+
 tBodyAccMag-mean()             : numeric (an average)  
+
 tBodyAccMag-std()              : numeric (an average)  
+
 tGravityAccMag-mean()          : numeric (an average)  
+
 tGravityAccMag-std()           : numeric (an average)  
+
 tBodyAccJerkMag-mean()         : numeric (an average)  
+
 tBodyAccJerkMag-std()          : numeric (an average)  
+
 tBodyGyroMag-mean()            : numeric (an average)  
+
 tBodyGyroMag-std()             : numeric (an average)  
+
 tBodyGyroJerkMag-mean()        : numeric (an average)  
+
 tBodyGyroJerkMag-std()         : numeric (an average)  
+
 fBodyAcc-mean()-X              : numeric (an average)  
+
 fBodyAcc-mean()-Y              : numeric (an average)  
+
 fBodyAcc-mean()-Z              : numeric (an average)  
+
 fBodyAcc-std()-X               : numeric (an average)  
+
 fBodyAcc-std()-Y               : numeric (an average)  
+
 fBodyAcc-std()-Z               : numeric (an average)  
+
 fBodyAcc-meanFreq()-X          : numeric (an average)  
+
 fBodyAcc-meanFreq()-Y          : numeric (an average)  
+
 fBodyAcc-meanFreq()-Z          : numeric (an average)  
+
 fBodyAccJerk-mean()-X          : numeric (an average)  
+
 fBodyAccJerk-mean()-Y          : numeric (an average)  
+
 fBodyAccJerk-mean()-Z          : numeric (an average)  
+
 fBodyAccJerk-std()-X           : numeric (an average)  
+
 fBodyAccJerk-std()-Y           : numeric (an average)  
+
 fBodyAccJerk-std()-Z           : numeric (an average)  
+
 fBodyAccJerk-meanFreq()-X      : numeric (an average)  
+
 fBodyAccJerk-meanFreq()-Y      : numeric (an average)  
+
 fBodyAccJerk-meanFreq()-Z      : numeric (an average)  
+
 fBodyGyro-mean()-X             : numeric (an average)  
+
 fBodyGyro-mean()-Y             : numeric (an average)  
+
 fBodyGyro-mean()-Z             : numeric (an average)  
+
 fBodyGyro-std()-X              : numeric (an average)  
+
 fBodyGyro-std()-Y              : numeric (an average)  
+
 fBodyGyro-std()-Z              : numeric (an average)  
+
 fBodyGyro-meanFreq()-X         : numeric (an average)  
+
 fBodyGyro-meanFreq()-Y         : numeric (an average)  
+
 fBodyGyro-meanFreq()-Z         : numeric (an average)  
+
 fBodyAccMag-mean()             : numeric (an average)  
+
 fBodyAccMag-std()              : numeric (an average)  
+
 fBodyAccMag-meanFreq()         : numeric (an average)  
+
 fBodyBodyAccJerkMag-mean()     : numeric (an average)  
+
 fBodyBodyAccJerkMag-std()      : numeric (an average)  
+
 fBodyBodyAccJerkMag-meanFreq() : numeric (an average)  
+
 fBodyBodyGyroMag-mean()        : numeric (an average)  
+
 fBodyBodyGyroMag-std()         : numeric (an average)  
+
 fBodyBodyGyroMag-meanFreq()    : numeric (an average)  
+
 fBodyBodyGyroJerkMag-mean()    : numeric (an average)  
+
 fBodyBodyGyroJerkMag-std()     : numeric (an average)  
+
 fBodyBodyGyroJerkMag-meanFreq(): numeric (an average)  
